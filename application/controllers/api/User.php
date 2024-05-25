@@ -207,7 +207,7 @@ class User extends REST_Controller {
 		// Check if an image file is uploaded
 		if (isset($_FILES['image']) && $_FILES['image']['size'] > 0) {
 			// Define the upload directory
-			$uploadDir = '/Applications/XAMPP/xamppfiles/htdocs/TechInquireHub/assets/images/userimage/';
+			$uploadDir = 'C:\xampp\htdocs\TechInquireHub\assets\images\userimage';
 
 			// Set the upload configuration
 			$config['upload_path'] = $uploadDir;

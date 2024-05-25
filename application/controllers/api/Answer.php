@@ -28,7 +28,7 @@ class Answer extends REST_Controller {
 	public function ans_image_post() {
 		// Check for the file is not being empty
 		if (isset($_FILES['image']) && $_FILES['image']['size'] > 0) {
-			$uploadDir = '/Applications/XAMPP/xamppfiles/htdocs/TechQ/assets/images/answer/';
+			$uploadDir = 'c:\xampp\htdocs\TechInquireHub\assets\images\answer';
 
 			// Upload configurations
 			$config['upload_path'] = $uploadDir;
