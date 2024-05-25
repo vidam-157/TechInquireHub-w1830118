@@ -243,10 +243,6 @@ i {
     font-weight: 600;
 }
 
-.question-title {
-    background-color: red;
-}
-
 .submit_question {
     display: flex;
     justify-content: flex-end;
