@@ -226,6 +226,10 @@ i {
     justify-content: center;
 }
 
+.question-title {
+    background-color: white;
+}
+
 .answer-title {
     margin: 5px;
     padding: 20px;
